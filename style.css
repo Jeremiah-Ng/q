@@ -1,0 +1,64 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+#heading{
+    margin-top: 0;
+    width: 100%;
+    font-size: 18px;
+    height:50px;
+    padding: 10px;
+    cursor: context-menu;
+    background-color: #0275d8;
+}
+#heading:hover{
+    background-color: #0275d8;
+}
+#Start{
+    margin-top: 30px;
+    width: 300px;
+    font-size: 12px;
+    height: 25px;
+}
+#status{
+    margin-top: 10px;
+    width: 300px;
+    font-size: 12px;
+    cursor: context-menu;
+    height: 25px;
+}
+#status:hover{
+    background-color: #f0ad4e;
+}
+#number:hover{
+    background-color: #d9534f;
+}
+#number{
+    margin-top: 10px;
+    width: 300px;
+    font-size: 12px;
+    cursor: context-menu;
+    height: 25px;
+}
+.footer1{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 40px;
+    /* padding: 10px; */
+    line-height: 3;
+    z-index: 1;
+}
+canvas{
+    margin-top: 100px;
+    border: 3px black solid;
+    border-radius: 30px;
+    animation-name: identifier;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    z-index: 0;
+}
+@keyframes identifier { 0%{box-shadow: 1px 1px 50px red;} 12.5%{box-shadow: 1px 1px 50px orange;} 25%{box-shadow: 1px 1px 50px yellow;} 37.5%{box-shadow: 1px 1px 50px rgb(0, 255, 0);} 50%{box-shadow: 1px 1px 50px rgb(0, 255, 255);} 62.5%{box-shadow: 1px 1px 50px blue;} 75%{box-shadow: 1px 1px 50px purple;} 87.5%{box-shadow: 1px 1px 50px rgb(255, 0, 255);} 100%{box-shadow: 1px 1px 50px red;} }
